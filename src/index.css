@@ -5,11 +5,11 @@
   --color-white-97: #f7f7f8;
   --color-white-95: #f1f1f3;
   --color-white-99: #fcfcfd;
-  --color-orange-50: #ff9500;
-  --color-orange-90: #ffeacc;
-  --color-orange-70: #ffbf66;
-  --color-orange-75: #ffca80;
-  --color-orange-97: #fff9f0;
+  --color-green-50: #5fc16d;
+  --color-green-90: #d1edd5;
+  --color-green-70: #8dd397;
+  --color-green-75: #bae4c0;
+  --color-green-97: #e8f6ea;
   --font-dmSans: "DM Sans", sans-serif;
 }
 
@@ -51,11 +51,11 @@
 
 @layer components {
   .primary-btn {
-    @apply bg-orange-50  text-white px-8 py-4 rounded-lg font-semibold hover:bg-orange-50/90;
+    @apply bg-green-50  text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-50/90;
   }
 
   .secondary-btn {
-    @apply px-8 py-4 bg-white border border-white-95 rounded-md hover:bg-orange-90 transition-colors;
+    @apply px-8 py-4 bg-white border border-white-95 rounded-md hover:bg-green-90 transition-colors;
   }
 
   .play-btn {

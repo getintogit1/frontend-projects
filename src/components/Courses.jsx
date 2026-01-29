@@ -43,7 +43,7 @@ function Courses() {
                 <div className="flex items-center flex-wrap">
                   {item.tags.map((tag, index) => (
                     <span
-                      className="border border-orange-75 p-2 rounded-md bg-orange-97 mr-2"
+                      className="border border-green-75 p-2 rounded-md bg-green-97 mr-2"
                       key={index}
                     >
                       {tag.tag}
@@ -59,7 +59,7 @@ function Courses() {
                 </div>
               </div>
               {/*Button*/}
-              <button className="bg-white-97 w-full p-3.5 rounded-md hover:text-orange-50 hover:border-orange-50 transition border border-white-97">
+              <button className="bg-white-97 w-full p-3.5 rounded-md hover:text-green-50 hover:border-green-50 transition border border-white-97">
                 Get it Now
               </button>
             </motion.div>

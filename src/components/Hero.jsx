@@ -44,7 +44,7 @@ function Hero() {
                 />
               </span>
               <h1 className="text-2xl md:text-4xl text-center">
-                <span className="text-orange-50">Unlock</span> Your Creative
+                <span className="text-green-50">Unlock</span> Your Creative
                 Potential
               </h1>
             </motion.div>

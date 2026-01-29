@@ -40,7 +40,7 @@ function FaqSec() {
                   {/*Title*/}
                   <h4 className="text-lg sm:text-xl">{item.title}</h4>
                   <button
-                    className="w-10 h-10 bg-orange-75 flex items-center justify-center rounded-md aspect-square hover:bg-orange-75/80 transition-colors"
+                    className="w-10 h-10 bg-green-75 flex items-center justify-center rounded-md aspect-square hover:bg-green-75/80 transition-colors"
                     onClick={() => handleClick(item.id)}
                   >
                     <RiAddLine

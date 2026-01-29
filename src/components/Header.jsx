@@ -28,7 +28,7 @@ const Header = () => {
               <li key={item.id}>
                 <a
                   href="#"
-                  className="text-lg font-medium hover:text-orange-50 transition-colors "
+                  className="text-lg font-medium hover:text-green-50 transition-colors "
                 >
                   {item.label}
                 </a>
@@ -52,7 +52,7 @@ const Header = () => {
               <li key={item.id}>
                 <a
                   href="#"
-                  className="hover:text-orange-50 transition-colors font-medium text-lg"
+                  className="hover:text-green-50 transition-colors font-medium text-lg"
                 >
                   {item.label}
                 </a>

@@ -22,7 +22,7 @@ function Footer() {
             {/*Footer Logo*/}
             <div className="">
               <img
-                src="/images/logo.png"
+                src="/images/logo-white.png"
                 alt="footer logo"
                 width={150}
                 height={50}
@@ -35,7 +35,7 @@ function Footer() {
                 <a
                   href="#"
                   key={item.id}
-                  className="flex items-center gap-1.5 hover:text-orange-70 hover:underline transition-colors"
+                  className="flex items-center gap-1.5 hover:text-green-70 hover:underline transition-colors"
                 >
                   {<item.icon />}
                   {item.label}
@@ -56,7 +56,7 @@ function Footer() {
                 {item.links.map((link, index) => (
                   <motion.li
                     variants={variants.fadeInUp}
-                    className="hover:text-orange-50 transition-colors"
+                    className="hover:text-green-50 transition-colors"
                     key={index}
                   >
                     {link.label}
@@ -83,7 +83,7 @@ function Footer() {
         </motion.div>
         {/* Footer Bottom*/}
         <p className="mt-16 text-center lg_mt-20">
-          &copy; {new Date().getFullYear()}Skillbridge. All rights reserved.
+          &copy; {new Date().getFullYear()} EasyLearn. All rights reserved.
         </p>
       </motion.div>
     </footer>

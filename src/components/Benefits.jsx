@@ -32,7 +32,7 @@ function Benefits() {
               className="bg-white p-10 flex-col rounded-xl"
             >
               {/* icon */}
-              <div className="bg-orange-75 w-[55] h-24 flex items-center justify-center mx-auto rounded-xl mb-8">
+              <div className="bg-green-75 w-[55] h-24 flex items-center justify-center mx-auto rounded-xl mb-8">
                 <img src={item.icon} alt={item.title} width={64} height={64} />
               </div>
               {/* content */}
@@ -42,7 +42,7 @@ function Benefits() {
               </div>
 
               {/*Button */}
-              <button className="mt-auto ml-auto border-white-95 w-14 h-14 flex items-center justify-center rounded-md text-orange-50 transition-colors hover:bg-orange-50 hover:text-white">
+              <button className="mt-auto ml-auto border-white-95 w-14 h-14 flex items-center justify-center rounded-md text-green-50 transition-colors hover:bg-green-50 hover:text-white">
                 <RiArrowRightUpLine size={26} />
               </button>
             </motion.div>
