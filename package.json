@@ -1,5 +1,6 @@
 {
   "name": "educational-website",
+  "homepage": "https://getintogit1.github.io/react-homepage",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,11 +8,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeloy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@remixicon/react": "^4.7.0",
     "@tailwindcss/vite": "^4.1.17",
+    "gh-pages": "^6.3.0",
     "motion": "^12.23.24",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
