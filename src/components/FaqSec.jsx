@@ -24,7 +24,7 @@ function FaqSec() {
           {/*Title */}
           <Title
             title="Frequently Asked Questions"
-            text="Still have any questions? Contact our team via support@skillbridge.com "
+            text="Still have any questions? Contact our team via hello@easylearn.com "
             link="See all FAQs"
           />
           {/*Question Wrapper*/}
