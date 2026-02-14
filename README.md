@@ -2,11 +2,16 @@
 
 A modern, responsive educational website built with **React** and **Tailwind CSS**.  
 The project focuses on clean UI, smooth animations, and a scalable frontend architecture.
+In this repo i will upload all project, you can check them out under this link: 
 
 **Live Demo:**  
 https://getintogit1.github.io/react-homepage/
 
 ---
+## Current Projects
+- React Tutorial
+- Portfolio
+- Landing Page for a eductional website
 
 ## Features
 
