@@ -5,7 +5,7 @@ The project focuses on clean UI, smooth animations, and a scalable frontend arch
 In this repo i will upload all project, you can check them out under this link: 
 
 **Live Demo:**  
-https://getintogit1.github.io/react-homepage/
+https://getintogit1.github.io/frontend-projects/
 
 ---
 ## Current Projects
