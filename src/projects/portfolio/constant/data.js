@@ -228,25 +228,25 @@ export const timelineItems = [
   {
     id: 1,
     title: "Softwareengineer, KI - Automation",
-    list: ["Hurst & Land UG", "Munich"],
+    list: ["Example 4", "Munich"],
     time: "Apr 2026 - Now ",
   },
   {
     id: 2,
     title: "Working Student",
-    list: ["TÜV Süd AG", "Munich"],
+    list: ["Example 3", "Munich"],
     time: "Aug 2023 - Feb 2026",
   },
   {
     id: 3,
     title: "Dispatcher",
-    list: ["Base Holding GmbH", "Salzburg"],
+    list: ["Example2", "Salzburg"],
     time: "Jan 2022 – Mai 2023",
   },
   {
     id: 4,
     title: "Software Tester",
-    list: ["David Systems GmbH", "Munich"],
+    list: ["Example1", "Munich"],
     time: "Jun 2019 – Nov 2019",
   },
 ];
@@ -260,7 +260,7 @@ export const timelineItems2 = [
   {
     id: 2,
     title: "B. Sc. Digitalization, Innovation & Society",
-    list: ["Paris Lodron University", "Salzburg", "1,8"],
+    list: ["Paris Lodron University", "Salzburg"],
     time: "Okt 2021 - Okt 2025",
   },
 ];
