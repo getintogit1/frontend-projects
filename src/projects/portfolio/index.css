@@ -1,0 +1,59 @@
+@import "tailwindcss";
+/*/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&display=swap");
+
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background-color: #ffffff;
+  --foreground-color: #000000;
+}
+
+.dark {
+  --background-color: #000000;
+  --foreground-color: #ffffff;
+}
+
+@theme {
+  --font-dmSans: "DM Sans", sans-serif;
+  --font-outfit: "Outfit", sans-serif;
+}
+
+.portfolio {
+  background-color: var(--background-color);
+  color: var(--foreground-color);
+  @apply font-dmSans font-normal transition-colors;
+}
+
+@layer utilities {
+  .container {
+    @apply mx-auto px-4 sm:px-9 md:px-16 max-w-screen-lg;
+  }
+  button {
+    @apply cursor-pointer;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-outfit leading-[1.1] font-semibold;
+  }
+  p {
+    @apply text-zinc-600 dark:text-zinc-400;
+  }
+  .section-title {
+    @apply text-2xl font-semibold;
+  }
+  input,
+  textarea {
+    @apply outline-none;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply border px-6 py-3 rounded-sm transition-all transform flex items-center justify-center gap-2;
+  }
+}

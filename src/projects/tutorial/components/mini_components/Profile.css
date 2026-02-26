@@ -1,0 +1,11 @@
+
+
+
+
+.profile-img{
+  width: 150px;           /* ✅ fixed size */
+  height: 150px;          /* ✅ fixed size */
+  border-radius: 50%;     /* ✅ perfect circle for profile pics */
+  object-fit: cover;      /* ✅ ensures image fills area nicely */
+  margin-bottom: 10px;
+}

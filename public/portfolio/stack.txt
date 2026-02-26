@@ -1,0 +1,25 @@
+Docker
+
+Redis
+
+Python -> Django
+
+JS -> Next.js -> Express.js -> React -> Vite
+HTML
+CSS -> Tailwind
+
+C
+
+Java
+
+IT-Security
+
+Bash
+
+Linux
+
+GIT
+
+Databases -> Postgresql, SQLite, MongoDB
+
+

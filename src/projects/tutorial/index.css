@@ -1,0 +1,80 @@
+@reference "../../App.css";
+
+.tutorial {
+  --color-green-50: #018a80;
+  --color-green-90: #b3dcd9;
+  --color-green-70: #34a199;
+  --color-green-75: #67b9b3;
+  --color-green-97: #e6f3f2;
+}
+
+@layer base {
+  .tutorial {
+    @apply font-sans text-grey-15 bg-white;
+  }
+}
+
+@layer utilities {
+  .tutorial .container {
+    @apply px-4 mx-auto sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1130px] 2xl:max-w-[1380px];
+  }
+  .tutorial .button {
+    @apply cursor-pointer block;
+  }
+  .tutorial .p {
+    @apply text-sm md:text-base lg:text-lg leading-normal;
+  }
+  .tutorial .h1,
+  .tutorial .h2,
+  .tutorial .h3,
+  .tutorial .h4 {
+    @apply font-semibold text-balance leading-tight;
+  }
+  .tutorial .section {
+    @apply pt-10 lg:mt-32;
+  }
+  .tutorial .h2 {
+    @apply text-2xl md:text-3xl lg:text-4xl;
+  }
+  .tutorial .h4 {
+    @apply text-2xl lg:text-[22px];
+  }
+}
+
+@layer components {
+  .tutorial .primary-btn {
+    @apply bg-green-50  text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-50/90;
+  }
+
+  :where(.tutorial) .secondary-btn {
+    @apply px-8 py-4 bg-white border border-white-95 rounded-md transition-colors;
+  }
+}
+
+/*Header */
+.tutorial .navbar {
+  @apply lg:hidden fixed top-0 left-0 bg-white w-full h-screen flex items-center justify-center z-40 flex-col translate-y-full transition-transform;
+}
+
+.tutorial .navbar.active {
+  @apply translate-y-0;
+}
+
+/*Card Styling*/
+
+.card {
+  @apply font-sans p-5 m-2 text-center inline-block w-[90%] h-[50vh]  bg-white align-top shadow-md;
+  border: 3px solid transparent;
+  border-radius: 5px;
+  border-image: linear-gradient(70deg, #1a968d, #a471bb) 1;
+}
+
+/*Component Manager*/
+
+.tutorial .component-manager-container {
+  @apply bg-green-97 border border-green-97 rounded-md;
+}
+
+.tutorial .component-manager-container:not(.filled) {
+  @apply min-h-[50vh];
+}

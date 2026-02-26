@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+html {
+  @apply scroll-smooth;
+}
+
+/* 1) Default Werte (fallback, z.B. Home oder allgemein) */
+:root {
+  --grey-15: #262625;
+  --white-97: #f7f7f8;
+  --white-95: #f1f1f3;
+  --white-99: #fcfcfd;
+
+  --dm-sans: "DM Sans", sans-serif;
+}
+
+/* 2) Tailwind Tokens -> zeigen auf diese Variablen */
+@theme {
+  --font-sans: "DM Sans", sans-serif;
+  --color-grey-15: var(--grey-15);
+  --color-white-97: var(--white-97);
+  --color-white-95: var(--white-95);
+  --color-white-99: var(--white-99);
+
+  --color-green-50: var(--green-50);
+  --color-green-90: var(--green-90);
+  --color-green-70: var(--green-70);
+  --color-green-75: var(--green-75);
+  --color-green-97: var(--green-97);
+}
