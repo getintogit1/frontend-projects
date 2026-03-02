@@ -1,4 +1,4 @@
-#  Educational Website – React Homepage
+#  Frontend Projects
 
 A modern, responsive educational website built with **React** and **Tailwind CSS**.  
 The project focuses on clean UI, smooth animations, and a scalable frontend architecture.
