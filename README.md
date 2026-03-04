@@ -1,6 +1,6 @@
 #  Frontend Projects
 
-A modern, responsive educational website built with **React** and **Tailwind CSS**.  
+A modern, responsive website built with **React** and **Tailwind CSS**.  
 The project focuses on clean UI, smooth animations, and a scalable frontend architecture.
 In this repo i will upload all project, you can check them out under this link: 
 
@@ -12,6 +12,7 @@ https://getintogit1.github.io/frontend-projects/
 - React Tutorial
 - Portfolio
 - Landing Page for a eductional website
+- Remade Robot website from JS mastery Tutorial
 
 ## Features
 
@@ -49,10 +50,9 @@ https://getintogit1.github.io/frontend-projects/
 
 ```bash
 # Clone the repository
-git clone https://github.com/getintogit1/react-homepage.git
+git clone https://github.com/getintogit1/frontend-projects.git
 
 # Navigate to the project folder
-cd react-homepage
 
 # Install dependencies
 npm install
