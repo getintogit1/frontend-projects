@@ -227,7 +227,7 @@ export const aboutItems = [
 export const timelineItems = [
   {
     id: 1,
-    title: "Softwareengineer, KI - Automation",
+    title: "Web Developer / Web Applications",
     list: ["Example 4", "Munich"],
     time: "Apr 2026 - Now ",
   },
